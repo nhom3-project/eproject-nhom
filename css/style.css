@@ -64,8 +64,21 @@ body {
 .custom_heading {
   text-align: center;
   font-weight: bold;
+  position: relative;
+  line-height: 60px;
+  color: #555;
 }
-
+.custom_heading::after
+{ content: '';
+  background:#ff523b;
+width:80px;
+  height:5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom:0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .custom_heading-text {
   text-align: center;
 }
@@ -91,7 +104,13 @@ body {
 .header_section .nav_container {
   margin: 0 auto;
 }
+.navbar-nav .nav-item .nav-link:hover
+{color: darkblue;
+  background: crimson;
 
+
+
+}
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 30px;
   color: #343434;
@@ -114,9 +133,74 @@ a:focus {
   outline: none !important;
   box-shadow: none;
 }
+.container .card::before{
+  content: '';
+  position: absolute;
+  top:0;
+  right: 0;
+   }
+.container .card .card-img-top
+{margin-bottom: 10px;
+}
+.container .card .card-img-top img
+{max-width: 90%;
+}
+.container .card .card-body::before
+{content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background:linear-gradient(transparent,#ffffff);
+}
+.container .card .card-body
+{position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+.container .card.active .card-body
+{ height: auto;
+}
+.container .card.active .card-body::before
+{display: none;
+}
+.container .card .card-body h5
+{color: firebrick;
+  font-size: 14px;
+  font-width: 600;
+  margin-bottom: 10px;
+}
+.container .card .more
+{ position: relative;
+  padding: 10px 15px;
+  background: #17e78c;
+  margin-top: 15px;
+  display: inline-block;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #383838;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.container .card.active .more
+{ background: #ff3b7e;
+  color:#fff;
+}
+/*.container .card.active::before*/
+/*{border-top: 20px solid #ff3b7e;*/
+/*  border-right: 20px solid #ff3b7e;*/
 
+/*}*/
+.container .card .more::before
+{content:'Read more';
 
+}
+.container .card.active .more::before
+{content:'Read Less';
 
+}
 .navbar-brand,
 .navbar-brand:hover {
   text-transform: uppercase;
@@ -299,15 +383,17 @@ a:focus {
   cursor: pointer;
   border: none;
   border-radius: 0;
-  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+  content: '';
+  transform: translateY(-10px);
+  /*-webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);*/
+  /*-moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);*/
+  /*box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);*/
 
 }
 
-.service_section .card:hover::after {
-  background-color: #fc5d35;
-}
+/*.service_section .card:hover::after {*/
+/*  background-color: #fc5d35;*/
+/*}*/
 
 /* end service section */
 

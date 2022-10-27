@@ -46,14 +46,14 @@
 
     }
 
-    .fruit_section .fruit_detail-box {
+    .About_section .About_detail-box {
 
         margin-bottom: 40px;
         text-align: center;
 
     }
 
-    .fruit_detail-box>div {
+    .About_detail-box>div {
 
         display: flex;
         justify-content: center;
