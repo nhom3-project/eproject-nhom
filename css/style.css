@@ -399,9 +399,15 @@ a:focus {
 
 /* end service section */
 
-
-
-
+/* Gallery section */
+.col-md-4 {
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+img:hover{
+transform: scale(1.1);
+  transition: 0.5s;
+}
 
 
 /* tasty section */
