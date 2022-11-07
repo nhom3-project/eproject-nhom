@@ -174,7 +174,7 @@ a:focus {
 .container .card .more
 { position: relative;
   padding: 10px 15px;
-  background: #17e78c;
+  background: #686559;
   margin-top: 15px;
   display: inline-block;
   cursor: pointer;
@@ -186,7 +186,7 @@ a:focus {
   width:35%;
 }
 .container .card.active .more
-{ background: #ff3b7e;
+{ background: #686559;
   color:#fff;
 }
 /*.container .card.active::before*/
