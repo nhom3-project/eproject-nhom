@@ -630,8 +630,8 @@ transform: scale(1.1);
 .contact-widget .cw-item {
   background: #ffffff;
   margin-bottom: 11px;
-  -webkit-box-shadow: 0px 8px 35px 10px #E8E8E8;
-  box-shadow: 0px 8px 35px 10px #E8E8E8;
+  /*-webkit-box-shadow: 0px 8px 35px 10px #E8E8E8;*/
+  /*box-shadow: 0px 8px 35px 10px #E8E8E8;*/
   padding-left: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
