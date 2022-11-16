@@ -81,6 +81,493 @@
     .pagination a {
       color: black;
     }
+    .product-details .pd-title {
+      position: relative;
+      margin-bottom: 6px;
+    }
+
+    .product-details .pd-title span {
+      display: block;
+      font-size: 12px;
+      color: #b2b2b2;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: 700;
+      line-height: 23px;
+    }
+
+    .product-details .pd-title h3 {
+      color: #252525;
+      font-weight: 700;
+    }
+
+    .product-details .pd-title .heart-icon {
+      color: #252525;
+      font-size: 18px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .product-details .pd-rating {
+      margin-bottom: 10px;
+    }
+
+    .product-details .pd-rating i {
+      font-size: 12px;
+      display: inline-block;
+      color: #FAC451;
+      margin-right: -3px;
+    }
+
+    .product-details .pd-rating span {
+      font-size: 12px;
+      color: #999591;
+    }
+
+    .product-details .pd-desc {
+      margin-bottom: 24px;
+    }
+
+    .product-details .pd-desc p {
+      color: #636363;
+    }
+
+    .product-details .pd-desc h4 {
+      color: #e7ab3c;
+      font-weight: 700;
+    }
+
+    .product-details .pd-desc h4 span {
+      font-size: 18px;
+      font-weight: 400;
+      color: #b7b7b7;
+      text-decoration: line-through;
+      display: inline-block;
+      margin-left: 13px;
+    }
+
+    .product-details .pd-color {
+      margin-bottom: 25px;
+    }
+
+    .product-details .pd-color h6 {
+      color: #252525;
+      font-weight: 700;
+      float: left;
+      margin-right: 28px;
+    }
+
+    .product-details .pd-color .pd-color-choose {
+      display: inline-block;
+    }
+
+    .product-details .pd-color .pd-color-choose .cc-item {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .product-details .pd-color .pd-color-choose .cc-item input {
+      position: absolute;
+      visibility: hidden;
+    }
+
+    .product-details .pd-color .pd-color-choose .cc-item label {
+      height: 20px;
+      width: 20px;
+      background: #252525;
+      border-radius: 50%;
+      cursor: pointer;
+      margin-bottom: 0;
+    }
+
+    .product-details .pd-color .pd-color-choose .cc-item label.cc-yellow {
+      background: #EEEE21;
+    }
+
+    .product-details .pd-color .pd-color-choose .cc-item label.cc-violet {
+      background: #8230E3;
+    }
+
+    .product-details .pd-size-choose {
+      margin-bottom: 30px;
+    }
+
+    .product-details .pd-size-choose .sc-item {
+      display: inline-block;
+      margin-right: 5px;
+    }
+
+    .product-details .pd-size-choose .sc-item:last-child {
+      margin-right: 0;
+    }
+
+    .product-details .pd-size-choose .sc-item input {
+      position: absolute;
+      visibility: hidden;
+    }
+
+    .product-details .pd-size-choose .sc-item label {
+      font-size: 16px;
+      color: #252525;
+      font-weight: 700;
+      height: 40px;
+      width: 47px;
+      border: 1px solid #ebebeb;
+      text-align: center;
+      line-height: 40px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .product-details .pd-size-choose .sc-item label.active {
+      background: #252525;
+      color: #ffffff;
+    }
+
+    .product-details .quantity {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-bottom: 33px;
+    }
+
+    .product-details .quantity .pro-qty {
+      width: 123px;
+      height: 46px;
+      border: 2px solid #ebebeb;
+      padding: 0 15px;
+      float: left;
+      margin-right: 14px;
+    }
+
+    .product-details .quantity .pro-qty .qtybtn {
+      font-size: 24px;
+      color: #b2b2b2;
+      float: left;
+      line-height: 38px;
+      cursor: pointer;
+      width: 18px;
+    }
+
+    .product-details .quantity .pro-qty .qtybtn.dec {
+      font-size: 30px;
+    }
+
+    .product-details .quantity .pro-qty input {
+      text-align: center;
+      width: 52px;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+      color: #4c4c4c;
+      line-height: 40px;
+      float: left;
+    }
+
+    .product-details .quantity .primary-btn.pd-cart {
+      padding: 14px 70px 10px;
+    }
+
+    .product-details .pd-tags {
+      margin-bottom: 27px;
+    }
+
+    .product-details .pd-tags li {
+      list-style: none;
+      font-size: 16px;
+      color: #636363;
+      line-height: 30px;
+    }
+
+    .product-details .pd-tags li span {
+      color: #252525;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .product-details .pd-share {
+      overflow: hidden;
+    }
+
+    .product-details .pd-share .p-code {
+      font-size: 16px;
+      color: #252525;
+      float: left;
+    }
+
+    .product-details .pd-share .pd-social {
+      float: right;
+    }
+
+    .product-details .pd-share .pd-social a {
+      display: inline-block;
+      color: #252525;
+      font-size: 14px;
+      margin-left: 15px;
+    }
+
+    .product-tab {
+      padding-top: 60px;
+    }
+
+    .tab-item ul li:nth-child(1) a {
+      border-right: 1px solid #ebebeb;
+    }
+
+    .tab-item ul li:nth-child(2) a {
+      border-right: 1px solid #ebebeb;
+    }
+
+    .tab-item ul li:nth-child(3) a {
+      border-right: 1px solid #ebebeb;
+    }
+
+    .tab-item ul li a {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 700;
+      color: #b2b2b2;
+      text-transform: uppercase;
+      padding: 18px 61px;
+      position: relative;
+      border-top: 1px solid #ebebeb;
+      border-left: 1px solid #ebebeb;
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    .tab-item ul li a.active {
+      color: #252525;
+    }
+
+    .tab-item ul li a.active:before {
+      opacity: 1;
+    }
+
+    .tab-item ul li a::before {
+      position: absolute;
+      left: 0;
+      top: -1px;
+      width: 100%;
+      height: 5px;
+      background: #e7ab3c;
+      content: "";
+      opacity: 0;
+    }
+
+    .product-content {
+      padding-top: 40px;
+    }
+
+    .product-content h5 {
+      color: #252525;
+      font-weight: 700;
+      margin-bottom: 23px;
+    }
+
+    .product-content p {
+      margin-bottom: 34px;
+    }
+
+    .product-content img {
+      min-width: 100%;
+    }
+    .specification-table {
+      padding-top: 52px;
+    }
+
+    .specification-table table {
+      width: 100%;
+    }
+
+    .specification-table table tr td {
+      border: 1px solid #EFF0F2;
+      text-align: center;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+
+    .specification-table table tr td.p-catagory {
+      width: 310px;
+      text-align: left;
+      padding-left: 34px;
+      font-size: 16px;
+      color: #4c4c4c;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .specification-table table tr td .pd-rating i {
+      font-size: 12px;
+      display: inline-block;
+      color: #FAC451;
+      margin-right: -3px;
+    }
+
+    .specification-table table tr td .pd-rating span {
+      font-size: 12px;
+      color: #999591;
+    }
+
+    .specification-table table tr td .p-price {
+      color: #e7ab3c;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .specification-table table tr td .cart-add {
+      font-size: 16px;
+      color: #252525;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .specification-table table tr td .p-stock,
+    .specification-table table tr td .p-size,
+    .specification-table table tr td .p-code {
+      font-size: 16px;
+      color: #4c4c4c;
+      font-weight: 700;
+    }
+
+    .specification-table table tr td .p-weight {
+      font-size: 14px;
+      color: #4c4c4c;
+      font-weight: 700;
+    }
+
+    .specification-table table tr td .p-size {
+      text-transform: uppercase;
+    }
+
+    .specification-table table tr td .cs-color {
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      background: #252525;
+      border-radius: 50%;
+    }
+
+    .customer-review-option {
+      padding-top: 55px;
+    }
+
+    .customer-review-option h4 {
+      color: #292f3b;
+      font-weight: 700;
+      margin-bottom: 35px;
+    }
+
+    .customer-review-option .comment-option .co-item {
+      margin-bottom: 20px;
+    }
+
+    .customer-review-option .comment-option .co-item .avatar-pic {
+      float: left;
+      margin-right: 20px;
+    }
+
+    .customer-review-option .comment-option .co-item .avatar-pic img {
+      height: 63px;
+      width: 63px;
+      border-radius: 50%;
+    }
+
+    .customer-review-option .comment-option .co-item .avatar-text {
+      display: table;
+    }
+
+    .customer-review-option .comment-option .co-item .avatar-text .at-rating {
+      line-height: 9px;
+    }
+
+    .customer-review-option .comment-option .co-item .avatar-text .at-rating i {
+      font-size: 12px;
+      display: inline-block;
+      color: #FAC451;
+      margin-right: -3px;
+    }
+
+    .customer-review-option .comment-option .co-item .avatar-text h5 {
+      color: #252525;
+      font-weight: 700;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .customer-review-option .comment-option .co-item .avatar-text h5 span {
+      color: #b2b2b2;
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-left: 22px;
+      position: relative;
+    }
+
+    .customer-review-option .comment-option .co-item .avatar-text h5 span:before {
+      position: absolute;
+      left: -18px;
+      top: -5px;
+      content: "-";
+      font-size: 18px;
+      color: #b2b2b2;
+    }
+
+    .customer-review-option .comment-option .co-item .avatar-text .at-reply {
+      font-size: 14px;
+      color: #636363;
+    }
+
+    .customer-review-option .personal-rating {
+      margin-bottom: 50px;
+      padding-top: 10px;
+    }
+
+    .customer-review-option .personal-rating h6 {
+      color: #252525;
+    }
+
+    .customer-review-option .personal-rating .rating i {
+      font-size: 12px;
+      display: inline-block;
+      color: #FAC451;
+      margin-right: -3px;
+    }
+
+    .customer-review-option .leave-comment h4 {
+      color: #292f3b;
+      font-weight: 700;
+      margin-bottom: 35px;
+    }
+
+    .customer-review-option .leave-comment .comment-form input {
+      width: 100%;
+      font-size: 16px;
+      color: #636363;
+      height: 50px;
+      border: 1px solid #ebebeb;
+      border-radius: 5px;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+
+    .customer-review-option .leave-comment .comment-form textarea {
+      width: 100%;
+      resize: none;
+      font-size: 16px;
+      color: #636363;
+      height: 116px;
+      border: 1px solid #ebebeb;
+      border-radius: 5px;
+      padding-left: 20px;
+      padding-top: 10px;
+      margin-bottom: 45px;
+    }
+
+
+
+
     }
 
   </style>
@@ -160,7 +647,7 @@
       </div>
     </div>
     <div class="col-lg-6 col-md-12 col-12">
-      <h3 class="py-4">Handmade Glass Mosaic Turkish Moroccan Tea Light Candle Holders - Random or Mixed Designs Set of 2</h3>
+      <h3 class="py-4">Glass Mosaic Turkish Moroccan Tea Light Candle Holders.</h3>
       <h2>$120.00</h2>
       <select class="my-3" style="width:200px;margin-top: 10px;">
         <option value="Select_size">Select size</option>
@@ -179,9 +666,153 @@
            </div>
     <h4 class="mt-5 mb-5" style="margin-top:17px!important;">Product Detail</h4>
       <p style="text-align: justify">Multi-Color stars made up of glass are pasted on the glass piece and then white cement is applied by the Artisians to make it perfect for every decor.
-        Yellow Round Glass Beads
-        •3 to 4 flowers are made using drop shape glass beads, a multi-color pattern is made to give it a lovely look.
+        Yellow Round Glass Beads.
       </p>
+    </div>
+    <div class="product-tab">
+      <div class="tab-item">
+        <ul class="nav" role="tablist" ">
+        <li><a class="active" href="#tab-1" data-toggle="tab" role="tab">DESCRIPTION</a></li>
+        <li><a href="#tab-2" data-toggle="tab" role="tab">SPECIFICATIONS</a></li>
+        <li><a href="#tab-3" data-toggle="tab" role="tab"> Customer Reviews (02)</a></li>
+        </ul>
+
+      </div>
+    <div class="tab-item-content">
+      <div class="tab-content">
+        <div class="tab-pane fade-in active" id="tab-1" role="tabpanel">
+          <div class="product-content">
+            <div class="row">
+              <div class="col-lg-5">
+                <h5>Introduction</h5>
+                <p>Each Votive in this set has 3.25” diameter (top) and 3ʺ height. Works with regular tea-light candles, also with small LED flameless tea lights, votive candle, pillar, tealight, floating, wick candles.
+                  Each glass candle pedestal is individually mouthblown and hand-finished by skilled craftsmen. Slight variations may occur in this unique tea light holder. </p>
+                <h5>Features</h5>
+                <p>Brahmz tealight holder will enhance the natural warm light of candles, giving it a ethnic but timeless look. They can be a part of your overall décor, or as a favour for your guests..</p>
+              </div>
+              <div class="col-lg-5">
+                <img src="images/pro_hienthi.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="tab-2" role="tabpanel">
+          <div class="specification-table">
+            <table>
+              <tr>
+                <td class="p-catagory">Customer Rating</td>
+                <td>
+                  <div class="pd-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <span>(5)</span>
+                  </div>
+                </td>
+
+              </tr>
+              <tr>
+                <td class="p-catagory">Price</td>
+                <td>
+                  <div class="p-price">
+                    $120.00
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-catagory">Add To Cart</td>
+                <td>
+                  <div class="cart-add">+ add to cart</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-catagory">Availability</td>
+                <td>
+                  <div class="p-stock">22 in stock</div>
+                </td>
+              </tr>
+              <tr>
+                <td class="p-catagory">Weight</td>
+                <td>
+                  <div class="p-weight">200 gram</div>
+                </td>
+              </tr>
+            </table>
+
+          </div>
+
+        </div>
+        <div class="tab-pane fade" id="tab-3" role="tabpanel">
+          <div class="customer-review-option">
+            <h4>2 Comments</h4>
+            <div class="comment-option">
+              <div class="co-item">
+                <div class="avatar-pic">
+                  <img src="images/avatar-2.png" alt="">
+                </div>
+                <div class="avatar-text">
+                  <div class="at-rating">
+                    <i class="fa fa -star"></i>
+                    <i class="fa fa -star"></i>
+                    <i class="fa fa -star"></i>
+                    <i class="fa fa -star"></i>
+                    <i class="fa fa fa-star-o"></i>
+
+                  </div>
+                  <h5>Brandon Kelly <span>27 Aug 2022</span></h5>
+                  <div class="at-reply">Nice !</div>
+                </div>
+              </div>
+              <div class="co-item">
+                <div class="avatar-pic">
+                  <img src="images/avatar-1.png" alt="">
+                </div>
+                <div class="avatar-text">
+                  <div class="at-rating">
+                    <i class="fa fa -star"></i>
+                    <i class="fa fa -star"></i>
+                    <i class="fa fa -star"></i>
+                    <i class="fa fa -star"></i>
+                    <i class="fa fa fa-star-o"></i>
+
+                  </div>
+                  <h5>Brandon Kelly <span>27 Aug 20022</span></h5>
+                  <div class="at-reply">Nice !</div>
+                </div>
+              </div>
+            </div>
+            <div class="personal-rating">
+              <h6>Your Rating</h6>
+              <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <div class="leave-comment">
+              <h4>Leave A Commnet</h4>
+              <form action="" class="comment-form">
+                <div class="col-lg-6">
+                  <input class="form-control item" type="text" name="username" maxlength="15" minlength="4" id="username" placeholder="Your name" required>
+                </div>
+                <div class="col-lg-6">
+                  <input class="form-control item" type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="col-lg-6">
+                  <textarea placeholder="Messages"></textarea>
+                  <button type="submit" class="site-btn">Send message</button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
   </div>
 </section>
